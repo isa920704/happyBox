@@ -1,0 +1,98 @@
+*{margin:0;padding:0}
+.ui-container{
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.ui-banner{
+    /* background: grey; */
+    width: 10rem;
+    height: 5.3rem;
+}
+
+.ui-tab{
+    width: 10rem;
+    /* background: paleturquoise; */
+    padding: 0.31rem;
+}
+
+.ui-tab .ui-tab-ul {
+    width: 5.7866rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ui-tab .ui-tab-ul li {
+    width: 3.14rem;
+    height: 0.8rem;
+    float: left;
+    position: absolute;
+    text-align: center;
+    border-radius: 0.72rem;
+    color: #707070;
+    background: #F1F1F1;
+    font-size: 16px;
+    line-height: 0.8rem;
+}
+
+.ui-tab .ui-tab-ul li:first-child {
+    left:  0;
+}
+
+.ui-tab .ui-tab-ul li:last-child {
+    right:  0;
+}
+
+.ui-tab .ui-tab-ul li.ischeck {
+    background: #FFE400;
+    color: #000000;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.ui-nav{
+    width: 100%;
+    background: #726a6a;
+    /* display: inline-block; */
+    /* flex-wrap: nowrap; */
+}
+
+.ui-nav-ul {
+    width: 100%;
+    height: 1.0667rem;
+}
+.ui-nav-ul > li {
+    /* display: inline-block; */
+    width: 1.6665rem;
+    height: 1.0667rem;
+    line-height: 1.0667rem;
+    text-align: center;
+    border-bottom: 0.1333rem solid #726a6a ;
+    overflow: hidden;
+    float: left;
+}
+
+.ui-nav-ul > li.ischeck {
+    color: #FFE400;
+    z-index: 2;
+    border-bottom: 0.1333rem solid #FFE400 ;
+}
+
+.ui-nav-ul .nav-choose {
+    position: relative;
+}
+
+.ui-nav-ul .nav-choose .nav-choose-ui {
+    width: 10rem;
+    position: absolute;
+    top: 1.0667rem;
+}
+
+.ui-nav-ul .ui-arrow-down{
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: red;
+}
+
